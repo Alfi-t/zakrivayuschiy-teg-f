@@ -1,6 +1,23 @@
-/* В этом файле вы опишете значения переменных в разных цветовых схемах.
-Придерживайтесь такого именования классов:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
-*/
+ @media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #00cc14;
+        --background-color: #000;
+        --background: #007f0c;
+        --background-dark: #004306;
+        --red: #ff0000;
+        --heard-conture: var(--text-color);
+        --font-main-weight: 465;
+        --font-card-weight: 785;
+    }
+  }
+  
+  :root.theme-light {
+    --text-color: #000;
+    --heard-conture: var (--text-color);
+    --background-color: #FFFFFF;
+    --background: #e7e7e7;
+    --background-dark: #1a1a1a;
+    --red: #ff0000;
+    --font-main-weight: 400;
+    --font-card-weight: 700;
+  }

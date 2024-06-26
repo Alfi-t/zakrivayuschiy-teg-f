@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --text-color: #00cc14;
+    --background-color: #000;
+    --background: #007f0c;
+    --background-dark: #004306;
+    --red: #ff0000;
+    --heard-conture: var(--text-color);
+    --main-font-family: "Inter", sans-serif;
+    --accent-font-family: "PressStart2P", monospace;
+    --font-main-weight: 400;
+    --font-card-weight: 700;
+}
