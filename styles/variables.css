@@ -1,14 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --text-color: #00cc14;
-    --background-color: #000;
-    --background: #007f0c;
-    --background-dark: #004306;
-    --red: #ff0000;
-    --heard-conture: var(--text-color);
-    --main-font-family: "Inter", sans-serif;
-    --accent-font-family: "PressStart2P", monospace;
-    --font-main-weight: 400;
-    --font-card-weight: 700;
+    --main-color: #fff;
+    --accent-color: #000;
+    --stroke-color: #fff;
+    --button-color: #fff;
+    --contour-color: #000;
+    --body-color: #f20000;
+    --core-color: #f20000;
+    --sparks-color: #f20000;
+    --background-image: 
+      repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(to top, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+    --main-font-family: "Inter-Variable", sans-serif;
+    --accent-font-family: "PressStart2P", sans-serif;
+
+    --base-font-weight: 400;
+    --bold-font-weight: 700;
+
+    --content-section__inline-size: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
+    --header__block-size: clamp(20.438rem, 17.509rem + 6.1vw, 23rem);
 }

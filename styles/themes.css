@@ -1,23 +1,76 @@
- @media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #00cc14;
-        --background-color: #000;
-        --background: #007f0c;
-        --background-dark: #004306;
-        --red: #ff0000;
-        --heard-conture: var(--text-color);
-        --font-main-weight: 465;
-        --font-card-weight: 785;
-    }
-  }
+:root.theme-dark {
+  --main-color: #000;
+  --accent-color: #00CC14;
+  --background-image: 
+    repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(#007f0c, #004306);
+  --stroke-color: #000;
+  --button-color: #00CC14;
+  --contour-color: #00CC14;
+  --body-color: #f20000;
+  --core-color: #f20000;
+  --sparks-color: #f20000;
+
+  --base-font-weight: 465;
+  --bold-font-weight: 785;
+}
+
+:root.theme-light {
+  --main-color: #fff;
+  --accent-color: #000;
+  --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+  --stroke-color: #fff;
+  --button-color: #fff;
+  --contour-color: #000;
+  --body-color: #f20000;
+  --core-color: #f20000;
+  --sparks-color: #f20000;
+
+  --base-font-weight: 400;
+  --bold-font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #000;
+    --accent-color: #00CC14;
+    --background-image: 
+      repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(#007f0c, #004306);
+    --stroke-color: #000;
+    --button-color: #00CC14;
+    --contour-color: #00CC14;
+    --body-color: #f20000;
+    --core-color: #f20000;
+    --sparks-color: #f20000;
   
-  :root.theme-light {
-    --text-color: #000;
-    --heard-conture: var (--text-color);
-    --background-color: #FFFFFF;
-    --background: #e7e7e7;
-    --background-dark: #1a1a1a;
-    --red: #ff0000;
-    --font-main-weight: 400;
-    --font-card-weight: 700;
+    --base-font-weight: 465;
+    --bold-font-weight: 785;
+      
   }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-color: #fff;
+    --accent-color: #000;
+    --background-image: 
+      repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+      repeating-linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+    --stroke-color: #fff;
+    --button-color: #fff;
+    --contour-color: #000;
+    --body-color: #f20000;
+    --core-color: #f20000;
+    --sparks-color: #f20000;
+  
+    --base-font-weight: 400;
+    --bold-font-weight: 700;
+  }
+}
