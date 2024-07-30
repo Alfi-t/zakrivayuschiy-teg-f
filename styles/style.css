@@ -41,7 +41,6 @@
 .header-subtitle {
   font-variation-settings: "wght" var(--base-font-weight);
   font-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
-  padding-top: 15px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -54,8 +53,7 @@
 
 .header-title {
   font-variation-settings: "wght" var(--base-font-weight);
-  font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
-  line-height: clamp(0.875rem, 0.765rem + 0.47vw, 1.188rem);
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -65,12 +63,11 @@
   justify-self: center;
 }
 
-
 .theme-menu__list {
   display: grid;
   justify-content: start;
   gap: clamp(0.5rem, 0.456rem + 0.19vw, 0.625rem);
-  margin: 30px 25px 20px 25px;
+  margin: 25px;
   padding-inline-start: 18px;
 }
 
