@@ -19,6 +19,6 @@
     --base-font-weight: 400;
     --bold-font-weight: 700;
 
-    --content-section__inline-size: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
-    --header__block-size: clamp(20.438rem, 17.509rem + 6.1vw, 23rem);
+    --content-section-inline-size: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
+    --header-block-size: clamp(20.438rem, 17.509rem + 6.1vw, 23rem);
 }
